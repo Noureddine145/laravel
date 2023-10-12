@@ -34,6 +34,8 @@ $planets = [
     ],
 ];
 
-dd($planets);
+$naam = "mus";
+
+return view('welcome', ['planets' => $planets], ['naam' => $naam]);
 
 });
